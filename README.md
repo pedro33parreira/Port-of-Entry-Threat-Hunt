@@ -1,6 +1,6 @@
 # Shinobi-Threat-Hunt
 
-<img width="1359" height="898" alt="image" src="https://github.com/user-attachments/assets/82ef4ada-c00d-4ede-8f12-f15e804561bd" />
+https://drive.google.com/drive/folders/1QJ9ZkfFwaJBYG_Jnt2RmO7HfN36SVXUh
 
 
 A guided SOC investigation using Microsoft Defender for Endpoint and Sentinel. This project walks through a full threat-hunting workflow — from hypothesis building to KQL enrichment, IOC mapping, MITRE alignment, and final incident reporting — based entirely on real telemetry from a simulated enterprise attack. Designed to strengthen practical SOC analysis, methodology, and documentation skills.
