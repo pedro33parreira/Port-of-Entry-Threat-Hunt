@@ -4,7 +4,31 @@
 
 
 
+INCIDENT BRIEF - Azuki Import/Export - 梓貿易株式会社
+SITUATION:
+Competitor undercut our 6-year shipping contract by exactly 3%. Our supplier contracts and pricing data appeared on underground forums.
 
+COMPANY:
+Azuki Import/Export Trading Co. - 23 employees, shipping logistics Japan/SE Asia
+
+COMPROMISED SYSTEMS:
+
+AZUKI-SL (IT admin workstation)
+
+EVIDENCE AVAILABLE:
+Microsoft Defender for Endpoint logs
+
+
+INVESTIGATION QUESTIONS:
+Initial access method?
+Compromised accounts?
+Data stolen?
+Exfiltration method?
+Persistent access remaining?
+
+DeviceProcessEvents
+| where DeviceName == "azuki-sl"
+| where Timestamp between (datetime(2025-11-19) .. datetime(2025-11-20))
 
 A guided SOC investigation using Microsoft Defender for Endpoint and Sentinel. This project walks through a full threat-hunting workflow — from hypothesis building to KQL enrichment, IOC mapping, MITRE alignment, and final incident reporting — based entirely on real telemetry from a simulated enterprise attack. Designed to strengthen practical SOC analysis, methodology, and documentation skills.
 🚀 Shinobi Threat-Hunting Lab — Microsoft Defender for Endpoint
