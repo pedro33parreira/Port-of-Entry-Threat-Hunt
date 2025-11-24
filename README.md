@@ -61,7 +61,7 @@ Author
 
 🧭 Overview
 
-The Shinobi Threat-Hunting Lab is a full end-to-end investigation built using Microsoft Defender for Endpoint (MDE).
+The Port Of Entry Threat-Hunting Lab is a full end-to-end investigation built using Microsoft Defender for Endpoint (MDE).
 It simulates attacker behaviour such as:
 
 Host reconnaissance
@@ -248,7 +248,7 @@ MITRE mapping for each technique
 
 🔥 Final Report
 
-📄 Access the full Shinobi Threat-Hunting Report:
+📄 Access the full Port Of Entry Threat-Hunting Report:
 ➡️ /reports/Shinobi-Threat-Hunting-Report.pdf
 ➡️ /reports/Shinobi-Threat-Hunting-Report.md
 
