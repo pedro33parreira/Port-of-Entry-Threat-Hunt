@@ -34,6 +34,8 @@ Time	Event
 2025-11-19 23:05	Suspicious PowerShell usage
 2025-11-20 01:30	Large outbound transfer
 2025-11-20 04:05	Attacker activity ceased
+
+
 MITRE ATT&CK Mapping
 Tactic	Technique
 Initial Access	T1110 – Brute Force
